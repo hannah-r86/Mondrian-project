@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0px;
+padding: 0px;
+height: 100vh;
+    }
+ .container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 200px 100px 100px 50px;
+  grid-template-rows: 100px 200px 200px 100px 100px 50px 50px 50px;
+  /*width: 813px;*/ 
+  height: 860px; 
+  background-color: black;
+  gap: 9px;
+}
+
+.item {
+  background-color: #F0F1EC; 
+  
+}
+.white1{
+    grid-column: span 2;
+
+}
+.white2{
+    grid-column: span 2;
+
+}
+.yellow1{
+    background-color: yellow;
+    grid-column: span 2;
+}
+.red{
+    grid-area: 2/2/4/5;
+    background-color: red;
+}
+.yellow2{
+    background-color: yellow;
+    grid-column: span 2;
+}
+.white5{
+grid-row: span 3;
+}
+.white6{
+grid-row: span 2;
+}
+.black{
+    background-color: black;
+    grid-area: 4/2/6/4;
+}
+.white10{
+    grid-column: span 2;
+}
+.yellow3{
+    grid-row: span 3;
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+    grid-area:5/5/7/7 ;
+}
+.orange{
+    background-color: orange;
+    grid-row: span 3;
+}
+.white12{
+    grid-area: 6/2/8/4;
+}
+.black2{
+    background-color: black;
+}
+.white13{
+    grid-column: span 3;
+}
+  </style>
+  </head>
+  <body>
+  <div class="container">
+    <div class="item white1"></div>
+    <div class="item white2"></div>
+    <div class="item yellow1"></div>
+    <div class="item white3"></div>
+    <div class="item white4"></div>
+    <div class="item red"></div>
+    <div class="item yellow2"></div>
+    <div class="item white5"></div>
+    <div class="item white6"></div>
+    <div class="item white7"></div>
+    <div class="item white8"></div>
+    <div class="item black"></div>
+    <div class="item white9"></div>
+    <div class="item white10"></div>
+    <div class="item yellow3"></div>
+    <div class="item white11"></div>
+    <div class="item blue"></div>
+    <div class="item orange"></div>
+    <div class="item white12"></div>
+    <div class="item black2"></div>
+    <div class="item white13"></div>
+    
+
+
+  </div>
+  </body>
+  </html>
